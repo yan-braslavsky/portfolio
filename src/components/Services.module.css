@@ -1,0 +1,23 @@
+.services-section {
+    padding: 50px 20px;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.service {
+    text-align: center;
+}
+
+.service img {
+    width: 80px;
+    /* Adjust the size of the icon */
+    height: 80px;
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(80%) invert(1);
+    /* Tint to light gray and invert to white */
+}
+

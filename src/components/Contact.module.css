@@ -1,0 +1,16 @@
+.contact {
+    text-align: center;
+}
+
+.contact img {
+    width: 80px;
+    /* Adjust the size of the icon */
+    height: 80px;
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(80%) invert(1);
+    /* Tint to light gray and invert to white */
+}
+
+.contact section {
+    padding: 50px 20px;
+}

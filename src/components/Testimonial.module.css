@@ -1,0 +1,16 @@
+.testimonial {
+    text-align: center;
+    margin-top: 50px;
+    padding: 50px 20px;
+}
+
+.testimonial img {
+    width: 80px;
+    /* Adjust the size of the icon */
+    height: 80px;
+    border-radius: 50%;
+    /* Make it circular */
+    margin-bottom: 20px;
+    filter: grayscale(100%) brightness(80%) invert(1);
+    /* Tint to light gray and invert to white */
+}
