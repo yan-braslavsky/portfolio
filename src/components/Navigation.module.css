@@ -1,0 +1,19 @@
+.nav {
+    text-align: center;
+    background-color: #455A64;
+    /* Gray background color for navigation */
+    padding: 10px 0;
+}
+
+.nav a {
+    color: #FFFFFF;
+    /* White text color for navigation links */
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2em;
+}
+
+.nav a:hover {
+    border-bottom: 2px solid #FFFFFF;
+    /* White underline on hover */
+}
