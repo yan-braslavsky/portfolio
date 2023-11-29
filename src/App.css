@@ -1,0 +1,119 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff; /* White text for better contrast */
+  /* background-color: #607D8B; Light blue background color */
+  background-color: #3e4d55; /* Light blue background color */
+}
+
+header {
+  background-color: #3e6e90; /* Updated color for hero section */
+  color: #FFFFFF; /* White text color for contrast */
+  text-align: center;
+  padding: 50px 0;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #FFFFFF; /* White heading color */
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black background color */
+}
+
+nav {
+  text-align: center;
+  background-color: #455A64; /* Gray background color for navigation */
+  padding: 10px 0;
+}
+
+nav a {
+  color: #FFFFFF; /* White text color for navigation links */
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 1.2em;
+}
+
+nav a:hover {
+  border-bottom: 2px solid #FFFFFF; /* White underline on hover */
+}
+
+section {
+  padding: 50px 20px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.service {
+  text-align: center;
+}
+
+.service img {
+  width: 80px; /* Adjust the size of the icon */
+  height: 80px;
+  margin-bottom: 20px;
+  filter: grayscale(100%) brightness(80%) invert(1); /* Tint to light gray and invert to white */
+}
+
+.testimonial {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.testimonial img {
+  width: 80px; /* Adjust the size of the icon */
+  height: 80px;
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 20px;
+  filter: grayscale(100%) brightness(80%) invert(1); /* Tint to light gray and invert to white */
+}
+
+.blog {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.blog-post {
+  flex: 0 0 30%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.blog-post img {
+  width: 80px; /* Adjust the size of the icon */
+  height: 80px;
+  border-radius: 50%; /* Make it circular */
+  margin-bottom: 20px;
+  filter: grayscale(100%) brightness(80%) invert(1); /* Tint to light gray and invert to white */
+}
+
+.contact {
+  text-align: center;
+}
+
+.contact img {
+  width: 80px; /* Adjust the size of the icon */
+  height: 80px;
+  margin-bottom: 20px;
+  filter: grayscale(100%) brightness(80%) invert(1); /* Tint to light gray and invert to white */
+}
+
+footer {
+  background-color: #3e6e90; /* Updated color for footer section */
+  color: #FFFFFF; /* White text color for contrast */
+  text-align: center;
+  padding: 20px 0;
+}
