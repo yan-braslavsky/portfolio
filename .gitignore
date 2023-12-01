@@ -1,0 +1,9 @@
+# Node.js
+node_modules/
+
+# Build artifacts
+build/
+dist/
+.cache/
+.vscode/
+.DS_Store
